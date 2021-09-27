@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
+import CardHeader from './CardHeader';
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { makeStyles } from '@material-ui/core/styles';
-import CardHeader from './CardHeader';
 import Avatar from './Avatar';
 
 const useStyles = makeStyles({
@@ -19,7 +19,7 @@ export default () => {
   const classes = useStyles();
   return (
     <Card className={classes.card}>
-      <CardHeader title="OK, Rajkumar, you're all setup. Now What?" />
+      <CardHeader title="OK, Raj, you're all setup. Now What?" />
       <CardContent>
         <List>
           <ListItem>
